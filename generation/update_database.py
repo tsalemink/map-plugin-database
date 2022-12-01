@@ -105,6 +105,8 @@ def check_plugins_for_updates():
     plugin_sources = read_file("plugin_sources.json")
     plugin_database = read_file("plugin_database.json")
     database_timestamp = datetime.datetime.fromisoformat(sys.argv[1].replace("Z", "+00:00")).timestamp()
+    # !!! Apparently this index is out of the range... ???
+    #   Must be cause the step we are trying to get this output from isn't returning anything...???
     url_submission = sys.argv[2]
 
     # TODO: REMOVE THIS (testing for correct inputs):

@@ -29,16 +29,16 @@ jobs:
 #        if: ${{ github.event_name == 'issue' }}
         # Note that the url_submission should only be retrieved if the workflow has been triggered by closing an issue.
         # Check the type of the event???
-        run: echo "::set-output name=url::${{ github.event.issue.body }}"
+#        run: echo "::set-output name=url::${{ github.event.issue.body }}"
         #
         # Do I need the [[ ]] encapsulation???
-#        run: |
-#          if [[ ${{ github.event_name == 'issue' }} ]]; then
-#              echo "::set-output name=url::${{ github.event.issue.body }}"
-#          fi
-#          if [[ ${{ github.event_name == 'workflow_dispatch' }} ]]; then
-#              echo "::set-output name=url::${{  }}"
-#          fi
+        run: |
+          if [[ ${{ github.event_name == 'issue' }} ]]; then
+              echo "::set-output name=url::${{ github.event.issue.body }}"
+          fi
+          if [[ ${{ github.event_name == 'workflow_dispatch' }} ]]; then
+              echo "::set-output name=url::${{  }}"
+          fi
 
       - name: Setup Python
         uses: actions/setup-python@v4
