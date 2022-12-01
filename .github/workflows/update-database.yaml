@@ -23,21 +23,12 @@ jobs:
 
       - name: Retrieve URL submission
         id: url
-        # Not sure if the "if" line should come before or after the id.
-        # ACTUALLY, if the trigger event was not an issue close, we should probably output an empty string here.
-        #   So that the "Run Python script" doesn't throw an error trying to get this value...
-#        if: ${{ github.event_name == 'issue' }}
-        # Note that the url_submission should only be retrieved if the workflow has been triggered by closing an issue.
-        # Check the type of the event???
-#        run: echo "::set-output name=url::${{ github.event.issue.body }}"
-        #
         # Do I need the [[ ]] encapsulation???
         shell: bash
         run: |
-          if [[ ${{ github.event_name == 'issue' }} ]]; then
+          if [ ${{ github.event_name == 'issue' }} ]; then
               echo "::set-output name=url::${{ github.event.issue.body }}"
-          fi
-          if [[ ${{ github.event_name == 'workflow_dispatch' }} ]]; then
+          elif [ ${{ github.event_name == 'workflow_dispatch' }} ]; then
               echo "::set-output name=url::${{  }}"
           fi
 
