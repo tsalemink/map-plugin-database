@@ -23,15 +23,11 @@ jobs:
 
       - name: Retrieve URL submission
         id: url
-        # THIS ISN'T WORKING...
-        # Do I need the [[ ]] encapsulation???
-        run: if ${{ github.event_name == 'issue' }}; then echo "::set-output name=url::${{ github.event.issue.body }}"; else echo "::set-output name=url::0"; fi
-#        run: |
-#          if [ ${{ github.event_name == 'issue' }} ]; then
-#              echo "::set-output name=url::${{ github.event.issue.body }}"
-#          elif [ ${{ github.event_name == 'workflow_dispatch' }} ]; then
-#              echo "::set-output name=url::${{  }}"
-#          fi
+        # Replace output value "0" with an empty string?
+#        run: if ${{ github.event_name == 'issue' }}; then echo "::set-output name=url::${{ github.event.issue.body }}"; else echo "::set-output name=url::0"; fi
+        run: |
+          if ${{ github.event_name == 'issue' }}; then echo "::set-output name=url::${{ github.event.issue.body }}";
+          else echo "::set-output name=url::0"; fi
 
       - name: Setup Python
         uses: actions/setup-python@v4
