@@ -45,6 +45,8 @@ jobs:
 
       - name: Run Python script
         run: python generation/update_database.py ${{ steps.time.outputs.time }} ${{ steps.url.outputs.url }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
         # TESTING VALUES: "2022-11-09T03:33:34Z" ""
 
