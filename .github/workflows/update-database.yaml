@@ -23,8 +23,9 @@ jobs:
 
       - name: Retrieve URL submission
         id: url
+        # THIS ISN'T WORKING...
         # Do I need the [[ ]] encapsulation???
-        run: if ${{ github.event_name == 'issue' }}; then echo "::set-output name=url::${{ github.event.issue.body }}"; else echo 0; fi
+        run: if ${{ github.event_name == 'issue' }}; then echo "::set-output name=url::${{ github.event.issue.body }}"; else echo "::set-output name=url::0"; fi
 #        run: |
 #          if [ ${{ github.event_name == 'issue' }} ]; then
 #              echo "::set-output name=url::${{ github.event.issue.body }}"
@@ -43,9 +44,6 @@ jobs:
           pip install -r generation/requirements.txt
 
       - name: Run Python script
-        # ACTUALLY, maybe we don't need to pass the sources and the database, since the script should be able to retrieve them directly...?
-#        run: |
-#          python generation/update_database.py plugin_sources.json plugin_database.json ${{ steps.time.outputs.time }} ${{ steps.url.outputs.url }}
         run: python generation/update_database.py ${{ steps.time.outputs.time }} ${{ steps.url.outputs.url }}
 
         # TESTING VALUES: "2022-11-09T03:33:34Z" ""
