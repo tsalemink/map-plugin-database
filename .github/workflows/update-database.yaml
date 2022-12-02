@@ -23,8 +23,6 @@ jobs:
 
       - name: Retrieve URL submission
         id: url
-        # Replace output value "0" with an empty string?
-#        run: if ${{ github.event_name == 'issue' }}; then echo "::set-output name=url::${{ github.event.issue.body }}"; else echo "::set-output name=url::0"; fi
         run: |
           if ${{ github.event_name == 'issue' }}; then
             echo "::set-output name=url::${{ github.event.issue.body }}";
@@ -47,19 +45,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
-        # TESTING VALUES: "2022-11-09T03:33:34Z" ""
+      - name: Commit files
+        # TODO: Need to update this step...
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "Update database." --allow-empty)
 
-#      - name: Commit files
-#        # What are these lines actually doing????
-#        # TODO: Need to update this step...
-#        run: |
-#          git config --local user.email "action@github.com"
-#          git config --local user.name "GitHub Action"
-#          git add -A
-#          git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
-#
-#      - name: Push changes
-#        uses: ad-m/github-push-action@v0.6.0
-#          with:
-#            github_token: ${{ secrets.GITHUB_TOKEN }}
-#            branch: main
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            branch: main
