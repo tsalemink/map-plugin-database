@@ -21,6 +21,7 @@ jobs:
 #        run: echo "time=${{ github.event.repository.updated_at }}" >> $GITHUB_OUTPUT
 #        run: echo "time=5" >>$GITHUB_OUTPUT
         run: echo "SELECTED_COLOR=green" >> $GITHUB_OUTPUT
+        
       - name: Retrieve URL submission
         id: url
         # TODO: Replace return value "0" with an empty string...?
