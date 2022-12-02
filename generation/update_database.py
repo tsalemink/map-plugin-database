@@ -110,7 +110,7 @@ def check_plugins_for_updates():
     url_submission = sys.argv[2]
 
     # TODO: REMOVE THIS (testing for correct inputs):
-    write_file("test.txt", database_timestamp)
+    write_file("test.txt", datetime.datetime.fromisoformat(sys.argv[1].replace("Z", "+00:00")))
     # Append the URL submission:
     with open("test.txt", "a") as file:
         file.write(f"\nURL: [{url_submission}]")

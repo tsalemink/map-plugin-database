@@ -12,47 +12,42 @@ jobs:
     # If the workflow was triggered by closing an issue, only run if the issue contains the 'add-plugin' label.
     if: or ${{ github.event_name == 'workflow_dispatch' }} ${{ github.event.label.name == 'add-plugin' }}
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout repo content
         uses: actions/checkout@v3
-
       - name: Retrieve database timestamp
         id: time
-        run: echo "::set-output name=time::${{ github.event.repository.updated_at}}"
-
+#        run: echo "::set-output name=time::${{ github.event.repository.updated_at}}"
+        run: echo "time=${{ github.event.repository.updated_at}}" >> $GITHUB_OUTPUT
       - name: Retrieve URL submission
         id: url
+        # TODO: Replace return value "0" with an empty string...?
         run: |
           if ${{ github.event_name == 'issue' }}; then
-            echo "::set-output name=url::${{ github.event.issue.body }}";
+#            echo "::set-output name=url::${{ github.event.issue.body }}";
+            echo "url=${{ github.event.issue.body }}" >> $GITHUB_OUTPUT
           else
-            echo "::set-output name=url::0";
+#            echo "::set-output name=url::0";
+            echo "url::0" >> $GITHUB_OUTPUT
           fi
-
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-          
       - name: Install Python packages
         run: |
           python -m pip install --upgrade pip
           pip install -r generation/requirements.txt
-
       - name: Run Python script
         run: python generation/update_database.py ${{ steps.time.outputs.time }} ${{ steps.url.outputs.url }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
-
       - name: Commit files
-        # TODO: Need to update this step...
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "Update database." --allow-empty)
-
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
