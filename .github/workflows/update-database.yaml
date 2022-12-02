@@ -25,7 +25,7 @@ jobs:
           if ${{ github.event_name == 'issue' }}; then
             echo "url=${{ github.event.issue.body }}" >> $GITHUB_OUTPUT
           else
-            echo "url=0" >> $GITHUB_OUTPUT
+            echo "url=''" >> $GITHUB_OUTPUT
           fi
       - name: Setup Python
         uses: actions/setup-python@v4
