@@ -56,7 +56,6 @@ def read_file(file):
 
 def write_file(file, data):
     with open(file, "w") as file:
-        # json.dump(data, file, default=default)
         json.dump(data, file)
 
 
@@ -82,7 +81,6 @@ def check_plugins_for_updates():
                     icon_name = ""
                     url = repo.url
                     version = get_latest_version(step_path)
-                    # plugin_database[name] = MAPPlugin(formatted_name, category, icon_name, url, version)
                     plugin_database[name] = {"_name": formatted_name, "_category": category, "_icon": icon_name, "_url": url,
                                              "_version": version}
                     break
@@ -105,24 +103,11 @@ def check_plugins_for_updates():
     plugin_sources = read_file("plugin_sources.json")
     plugin_database = read_file("plugin_database.json")
     database_timestamp = datetime.datetime.fromisoformat(sys.argv[1].replace("Z", "+00:00")).timestamp()
-    # !!! Apparently this index is out of the range... ???
-    #   Must be cause the step we are trying to get this output from isn't returning anything...???
     url_submission = sys.argv[2]
 
-    # TODO: REMOVE THIS (testing for correct inputs):
-    write_file("test.txt", str(datetime.datetime.fromisoformat(sys.argv[1].replace("Z", "+00:00"))))
-    # Append the URL submission:
-    with open("test.txt", "a") as file:
-        file.write(f"\nURL: [{url_submission}]")
-
-    # plugin_sources = get_plugin_sources()
     plugin_orgs = plugin_sources["plugin_organizations"]
     plugin_repos = plugin_sources["plugin_repositories"]
-    # plugin_data = get_remote_database()
-    # data_timestamp = get_remote_database_timestamp()
 
-    # TODO: Hopefully we can just use the token from the beginning...?
-    # g = Github()
     g = Github(os.environ["GITHUB_TOKEN"])
     i = 0
     while i < 2:
@@ -142,7 +127,6 @@ def check_plugins_for_updates():
             if i < 2:
                 g = authenticate_github_user()
 
-    # write_step_database(plugin_database)
     write_file("plugin_database.json", plugin_database)
 
 
