@@ -20,7 +20,6 @@ jobs:
         run: echo "time=${{ github.event.repository.updated_at }}" >> $GITHUB_OUTPUT
       - name: Retrieve URL submission
         id: url
-        # TODO: Replace return value "0" with an empty string...?
         run: |
           if ${{ github.event_name == 'issue' }}; then
             echo "url=${{ github.event.issue.body }}" >> $GITHUB_OUTPUT
@@ -49,4 +48,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: working
+          branch: main
