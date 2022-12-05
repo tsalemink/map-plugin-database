@@ -107,9 +107,9 @@ def check_plugins_for_updates():
 
     plugin_orgs = plugin_sources["plugin_organizations"]
     plugin_repos = plugin_sources["plugin_repositories"]
-    # TODO: Maybe we should only add the repo if it's non-empty...?
-    # plugin_repos.append(url_submission)
-    # plugin_sources["plugin_repositories"] = plugin_repos
+    if url_submission:
+        plugin_repos.append(url_submission)
+        plugin_sources["plugin_repositories"] = plugin_repos
 
     g = Github(os.environ["GITHUB_TOKEN"])
     i = 0
@@ -131,7 +131,7 @@ def check_plugins_for_updates():
                 g = authenticate_github_user()
 
     write_file("plugin_database.json", plugin_database)
-    # write_file("plugin_sources.json", plugin_sources)
+    write_file("plugin_sources.json", plugin_sources)
 
 
 if __name__ == '__main__':

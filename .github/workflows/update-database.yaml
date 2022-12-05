@@ -19,11 +19,8 @@ jobs:
         id: time
         run: echo "time=${{ github.event.repository.updated_at }}" >> $GITHUB_OUTPUT
       - name: Retrieve URL submission
-        # TODO: It seems that this isn't working correctly...
         id: url
         run: |
-          echo "Issue title: ${{ github.event.issue.title }}"
-          echo "Issue body: ${{ github.event.issue.body }}"
           if ${{ github.event_name == 'issues' }}; then
             echo "url=${{ github.event.issue.body }}" >> $GITHUB_OUTPUT
           else
