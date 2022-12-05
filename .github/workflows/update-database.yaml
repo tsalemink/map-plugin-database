@@ -22,7 +22,7 @@ jobs:
         # TODO: It seems that this isn't working correctly...
         id: url
         run: |
-          echo "${{ github.event.issue.body }}"
+          echo "${{ github.event.issues.body }}"
           if ${{ github.event_name == 'issues' }}; then
             echo "url=${{ github.event.issue.body }}" >> $GITHUB_OUTPUT
           else
