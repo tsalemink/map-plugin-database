@@ -55,7 +55,7 @@ def read_file(file):
 
 def write_file(file, data):
     with open(file, "w") as file:
-        json.dump(data, file, default=lambda o: o.__dict__, sort_keys=True, indent=2))
+        json.dump(data, file, default=lambda o: o.__dict__, sort_keys=True, indent=2)
 
 
 def check_plugins_for_updates():
