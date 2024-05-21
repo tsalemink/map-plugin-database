@@ -1,1 +1,807 @@
-{"segmentationstep": {"_name": "Segmentation", "_category": "Segmentation", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/segmentationstep", "_version": "0.1.0"}, "autosegmentationstep": {"_name": "Automatic Segmenter", "_category": "Segmentation", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/autosegmentationstep", "_version": "0.1.0"}, "zincmodelsourcestep": {"_name": "Zinc Model Source", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/zincmodelsourcestep", "_version": "0.2.0"}, "zincdatasourcestep": {"_name": "Zinc Data Source", "_category": null, "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/zincdatasourcestep", "_version": "0.2.0"}, "fieldworkhostmeshfittingstep": {"_name": "Fieldwork Host Mesh Fitting", "_category": "Fitting", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkhostmeshfittingstep", "_version": "1.1.0"}, "fieldworkmeshfittingstep": {"_name": "Fieldwork Mesh Fitting", "_category": "Fitting", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmeshfittingstep", "_version": "1.1.0"}, "fieldworkmodelevaluationstep": {"_name": "Fieldwork Model Evaluation", "_category": "Fieldwork", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodelevaluationstep", "_version": "1.1.0"}, "fieldworkmodeldictmakerstep": {"_name": "Fieldwork Model Dict Maker", "_category": "Fieldwork", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodeldictmakerstep", "_version": "0.2.0"}, "fieldworkmodelselectorstep": {"_name": "Fieldwork Model Selector", "_category": "Fieldwork", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodelselectorstep", "_version": "1.1.0"}, "fieldworkmodelserialiserstep": {"_name": "Fieldwork Model Serialiser", "_category": "Sink", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodelserialiserstep", "_version": "1.1.0"}, "fieldworkmodelsourcestep": {"_name": "Fieldwork Model Source", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodelsourcestep", "_version": "1.1.0"}, "fieldworkmodeltransformationstep": {"_name": "Fieldwork Model Transformation", "_category": "Fieldwork", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodeltransformationstep", "_version": "1.0.1"}, "fittinglogentrymakerstep": {"_name": "FittingLogEntryMaker", "_category": "Fitting", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fittinglogentrymakerstep", "_version": "0.2.0"}, "loadstlstep": {"_name": "Load STL", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/loadstlstep", "_version": "0.1.0"}, "loadvrmlstep": {"_name": "Load VRML", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/loadvrmlstep", "_version": "0.1.0"}, "matplotlibstaticplotterstep": {"_name": "Static Data Plotter", "_category": "Visualisation", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/matplotlibstaticplotterstep", "_version": "0.1.1"}, "mayaviviewerstep": {"_name": "Mayavi 3D Model Viewer", "_category": "Visualisation", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mayaviviewerstep", "_version": "0.2.0"}, "pointwiserigidregistrationstep": {"_name": "Point-wise Rigid Registration", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/pointwiserigidregistrationstep", "_version": "1.1.0"}, "stringsource2step": {"_name": "String Source", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/stringsource2step", "_version": "0.2.0"}, "textwriterstep": {"_name": "TextWriter", "_category": "General", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/textwriterstep", "_version": "0.2.0"}, "trcsourcestep": {"_name": "TRC Source", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/trcsourcestep", "_version": "0.1.1"}, "mocapdataviewerstep": {"_name": "MOCAP Data Viewer", "_category": "General", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mocapdataviewerstep", "_version": "0.1.1"}, "fieldworkfemurmeasurementstep": {"_name": "Fieldwork Femur Measurements", "_category": "Anthropometry", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkfemurmeasurementstep", "_version": "0.2.0"}, "fieldworkmodellandmarkstep": {"_name": "Fieldwork Model Landmarker", "_category": "Anthropometry", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodellandmarkstep", "_version": "0.2.0"}, "fieldworkpcmeshfittingstep": {"_name": "Fieldwork PC Mesh Fitting", "_category": "Fitting", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkpcmeshfittingstep", "_version": "1.1.0"}, "fieldworkpcregfemur2landmarksstep": {"_name": "Fieldwork PC-Reg Femur 2 Landmarks", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkpcregfemur2landmarksstep", "_version": "0.2.0"}, "fieldworkpcregpelvis2landmarksstep": {"_name": "Fieldwork PC-Reg Pelvis 2 Landmarks", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkpcregpelvis2landmarksstep", "_version": "0.2.0"}, "giaspcsourcestep": {"_name": "GIAS PC Source", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/giaspcsourcestep", "_version": "1.1.0"}, "landmarksjoinerstep": {"_name": "Landmarks Joiner", "_category": "Anthropometry", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/landmarksjoinerstep", "_version": "1.1.0"}, "pelvislandmarkshjcpredictionstep": {"_name": "Pelvis Landmark HJC Prediction", "_category": "Anthropometry", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/pelvislandmarkshjcpredictionstep", "_version": "0.2.0"}, "transformmodeltoimagespacestep": {"_name": "Transform Model to Image Space", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/transformmodeltoimagespacestep", "_version": "0.2.0"}, "trcframeselectorstep": {"_name": "TRC Frame Selector", "_category": "Anthropometry", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/trcframeselectorstep", "_version": "1.0.0"}, "fieldworkexportstlsurfacestep": {"_name": "Fieldwork Export STL Surface", "_category": "Output", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkexportstlsurfacestep", "_version": "0.1.0"}, "pointclouddictmakerstep": {"_name": "points Cloud Dict Maker", "_category": "General", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/pointclouddictmakerstep", "_version": "0.1.1"}, "pointcloudtransformationstep": {"_name": "Point Cloud Transformation", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/pointcloudtransformationstep", "_version": "0.2.0"}, "pointsourcestep": {"_name": "Point Source", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/pointsourcestep", "_version": "0.2.0"}, "dicomheaderquery": {"_name": "DICOM Header Query", "_category": "General", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/dicomheaderquery", "_version": "0.2.0"}, "dictserializer": {"_name": "Dict Serializer", "_category": "Sink", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/dictserializer", "_version": "0.1.0"}, "heartsurfacesegmenter": {"_name": "Heart Surface Segmenter", "_category": "Segmentation", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/heartsurfacesegmenter", "_version": "0.1.2"}, "hearttransform": {"_name": "Heart Transform", "_category": "Transform", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/hearttransform", "_version": "0.2.0"}, "transformpointcloud": {"_name": "Transform Point Cloud", "_category": "Transform", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/transformpointcloud", "_version": "0.2.0"}, "plainmodelviewer": {"_name": "Plain Model Viewer", "_category": "Zinc", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/plainmodelviewer", "_version": "0.1.1"}, "polygonserialiserstep": {"_name": "Polygon Serialiser", "_category": "Sink", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/polygonserialiserstep", "_version": "1.1.0"}, "fieldworkmodeltriangulationstep": {"_name": "Fieldwork Model Triangulation", "_category": "Fieldwork", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodeltriangulationstep", "_version": "1.1.0"}, "polygonsourcestep": {"_name": "Polygon Source", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/polygonsourcestep", "_version": "1.1.0"}, "dicomsourcestep": {"_name": "Dicom Source", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/dicomsourcestep", "_version": "0.1.1"}, "chooser": {"_name": "Chooser", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/chooser", "_version": "0.2.0"}, "asmsegmentationstep": {"_name": "ASM Segmentation", "_category": "Segmentation", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/asmsegmentationstep", "_version": "0.2.0"}, "fieldworkpcregtibiafibula2landmarksstep": {"_name": "Fieldwork PC-Reg Tibia-Fibula 2 Landmarks", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkpcregtibiafibula2landmarksstep", "_version": "0.2.0"}, "fieldworklowerlimbgenerationstep": {"_name": "Fieldwork Lower Limb Generation", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworklowerlimbgenerationstep", "_version": "0.2.0"}, "hoofmeasurement": {"_name": "Hoof Measurement", "_category": "Morphometric", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/hoofmeasurement", "_version": "0.1.1"}, "hoofpointanalysis": {"_name": "Hoof Point Analysis", "_category": "Fitting", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/hoofpointanalysis", "_version": "0.2.0"}, "multiplefilechooser": {"_name": "Multiple File Chooser", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/multiplefilechooser", "_version": "0.2.1"}, "attachmentevaluationstep": {"_name": "Attachment Site Evaluation", "_category": "Anthropometry", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/attachmentevaluationstep", "_version": "0.2.0"}, "heartsurfacesemiautosegmenter": {"_name": "Heart Surface Semi Auto Segmenter", "_category": "Segmentation", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/heartsurfacesemiautosegmenter", "_version": "0.1.0"}, "opensimmodelsourcestep": {"_name": "OpenSim Model Source", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/opensimmodelsourcestep", "_version": "0.1.1"}, "typeconverterstep": {"_name": "Type Converter", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/typeconverterstep", "_version": "0.1.0"}, "mapclientplugins.monodomain2d": {"_name": "monodomain2d", "_category": "Fitting", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.monodomain2d", "_version": "0.1.1"}, "fieldworkgait2392musclehmfstep": {"_name": "Fieldwork Gait2392 Muscle HMF", "_category": "OpenSim", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkgait2392musclehmfstep", "_version": "0.2.0"}, "modelimageviewerstep": {"_name": "Model Image Viewer", "_category": "Model Viewer", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/modelimageviewerstep", "_version": "0.1.1"}, "fieldworklowerlimb2sidegenerationstep": {"_name": "Fieldwork Lower Limb (2 sides) Generation", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworklowerlimb2sidegenerationstep", "_version": "1.1.0"}, "fieldworkgait2392geomstep": {"_name": "Fieldwork Gait2392 Geometry Customisation", "_category": "OpenSim", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkgait2392geomstep", "_version": "0.2.0"}, "mergepointcloudsstep": {"_name": "Merge Point Clouds", "_category": "General", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mergepointcloudsstep", "_version": "0.2.0"}, "guccionecubesimulation": {"_name": "Guccione Cube Simulation", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/guccionecubesimulation", "_version": "0.1.2"}, "parametersetting": {"_name": "Parameter Setting", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/parametersetting", "_version": "0.2.0"}, "graphsegmentation2d": {"_name": "Graph Segmentation 2D", "_category": "Segmentation", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/graphsegmentation2d", "_version": "0.2.0"}, "guccionecuberesultstoplot": {"_name": "Guccione Cube Results to Plot", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/guccionecuberesultstoplot", "_version": "0.2.0"}, "plotsettings": {"_name": "Plot Settings", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/plotsettings", "_version": "0.2.0"}, "basicplot": {"_name": "Basic Plot", "_category": "Model Viewer", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/basicplot", "_version": "0.2.0"}, "fieldworkmodeldictsourcestep": {"_name": "Fieldwork Model Dict Source", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodeldictsourcestep", "_version": "0.1.1"}, "mapclientplugins.simulationtask2step": {"_name": "Simulation Task 2", "_category": "Integration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.simulationtask2step", "_version": "0.2.0"}, "mapclientplugins.simulationtask3step": {"_name": "Simulation Task 3", "_category": "Integration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.simulationtask3step", "_version": "0.2.0"}, "mapclientplugins.eulerintegration1step": {"_name": "Euler Integration 1", "_category": "Integration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.eulerintegration1step", "_version": "0.2.0"}, "mapclientplugins.filelocationsinkstep": {"_name": "File Location Sink", "_category": "Sink", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.filelocationsinkstep", "_version": "0.3.1"}, "mapclientplugins.imagebasedfiducialmarkers": {"_name": "Image Based Fiducial Markers", "_category": "Image Processing", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.imagebasedfiducialmarkers", "_version": "0.1.1"}, "mapclientplugins.dictdeserializerstep": {"_name": "dictdeserializer", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.dictdeserializerstep", "_version": "0.1.0"}, "mapclientplugins.parametricfittingstep": {"_name": "Parametric Fitting", "_category": "Fitting", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.parametricfittingstep", "_version": "0.1.1"}, "mapclientplugins.imagecontextdatamaker": {"_name": "Image Context Data Maker", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.imagecontextdatamaker", "_version": "0.1.1"}, "mapclientplugins.zincregionwebglexporterstep": {"_name": "Zinc Region WebGl Exporter", "_category": "Sink", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.zincregionwebglexporterstep", "_version": "0.1.1"}, "mapclientplugins.electrodearraydetectorstep": {"_name": "Electrode Array Detector", "_category": "Image Processing", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.electrodearraydetectorstep", "_version": "0.1.1"}, "mapclientplugins.electrodeprojectionstep": {"_name": "Electrode Projection", "_category": "Fitting", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.electrodeprojectionstep", "_version": "0.1.1"}, "mapclientplugins.hearttransformvalidationstep": {"_name": "Heart Transform Validation", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.hearttransformvalidationstep", "_version": "0.1.1"}, "mapclientplugins.argonviewerstep": {"_name": "Argon Viewer", "_category": "Model Viewer", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.argonviewerstep", "_version": "0.4.6"}, "mapclientplugins.datamapstep": {"_name": "Data Map", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.datamapstep", "_version": "0.1.1"}, "mapclientplugins.argonsceneexporterstep": {"_name": "Argon Scene Exporter", "_category": "Sink", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.argonsceneexporterstep", "_version": "0.6.3"}, "mapclientplugins.sparccurationhelperstep": {"_name": "Sparc Curation Helper", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.sparccurationhelperstep", "_version": "0.5.2"}, "mapclientplugins.muxerstep": {"_name": "Muxer", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.muxerstep", "_version": "0.1.1"}, "mapclientplugins.saveargondocumentstep": {"_name": "Save Argon Document", "_category": "Sink", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.saveargondocumentstep", "_version": "0.1.1"}, "mapclientplugins.mapclientprovenancerecordstep": {"_name": "MAP Client Provenance Record", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.mapclientprovenancerecordstep", "_version": "0.3.1"}, "mapclientplugins.dictserializerstep": {"_name": "Dict Serializer", "_category": "Sink", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.dictserializerstep", "_version": "0.1.3"}, "mapclientplugins.imagesourcestep": {"_name": "Image Source", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.imagesourcestep", "_version": "0.3.1"}, "mapclientplugins.directorychooserstep": {"_name": "Directory Chooser", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.directorychooserstep", "_version": "0.1.3"}, "mapclientplugins.filechooserstep": {"_name": "File Chooser", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.filechooserstep", "_version": "0.1.3"}, "mapclientplugins.pointcloudserializerstep": {"_name": "Point Cloud Serializer", "_category": "Sink", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.pointcloudserializerstep", "_version": "0.3.0"}, "gait2392somsomusclestep": {"_name": "Gait2392 SOMSO Muscle", "_category": "OpenSim", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/gait2392somsomusclestep", "_version": "0.2.0"}, "mapclientplugins.convertdatatozincstep": {"_name": "Convert Data to Zinc", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.convertdatatozincstep", "_version": "0.1.2"}, "mapclientplugins.convertcoordinatefieldstep": {"_name": "Convert Coordinate Field", "_category": "Conversion", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.convertcoordinatefieldstep", "_version": "0.1.0"}, "mapclientplugins.mergezincdatastep": {"_name": "Merge Zinc Data", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.mergezincdatastep", "_version": "0.1.0"}, "mapclientplugins.propagatezincdatastep": {"_name": "Propagate Zinc Data", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.propagatezincdatastep", "_version": "0.2.1"}, "mapclientplugins.organinserterstep": {"_name": "organinserter", "_category": "Registration", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.organinserterstep", "_version": "0.1.0"}, "mapclientplugins.autosegmentationstep": {"_name": "Automatic Segmenter", "_category": "Segmentation", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.autosegmentationstep", "_version": "0.3.5"}, "mapclientplugins.typeconverterstep": {"_name": "Type Converter", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.typeconverterstep", "_version": "0.2.1"}, "mapclientplugins.datatrimmerstep": {"_name": "Data Trimmer", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.datatrimmerstep", "_version": "0.1.0"}, "mapclientplugins.scaffoldgroupmanagerstep": {"_name": "Scaffold Group Manager", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.scaffoldgroupmanagerstep", "_version": "0.1.0"}, "mapclientplugins.pointcloudpartitionerstep": {"_name": "Point Cloud Partitioner", "_category": "Morphometric", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.pointcloudpartitionerstep", "_version": "0.2.0"}, "mapclientplugins.generatesds": {"_name": "GenerateSDS", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.generatesds", "_version": "0.2.3"}, "mapclientplugins.sdsprotocolstep": {"_name": "SDSProtocol", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.sdsprotocolstep", "_version": "0.1.2"}, "mapclientplugins.extoexfstep": {"_name": "Ex to Exf", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.extoexfstep", "_version": "0.1.0"}, "mapclientplugins.meshprojectionstep": {"_name": "Mesh Projection", "_category": "Model Projection", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.meshprojectionstep", "_version": "0.1.0"}, "mapclientplugins.recordlocationonmeshstep": {"_name": "Record Location on Mesh", "_category": "Location", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.recordlocationonmeshstep", "_version": "0.1.0"}, "mapclientplugins.directorycopystep": {"_name": "Directory Copy", "_category": "Sink", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.directorycopystep", "_version": "0.1.0"}, "mapclientplugins.generateflatmapsourcesstep": {"_name": "Generate Flatmap Sources", "_category": "Morphometric", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.generateflatmapsourcesstep", "_version": "0.1.0"}, "mapclientplugins.datadownsamplerstep": {"_name": "Data Downsampler", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.datadownsamplerstep", "_version": "0.1.0"}, "mapclientplugins.configurationcapturestep": {"_name": "ConfigurationCapture", "_category": "Utility", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.configurationcapturestep", "_version": "0.1.0"}, "mapclientplugins.retrieveportaldatastep": {"_name": "Retrieve Portal Data", "_category": "Source", "_icon": "", "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.retrieveportaldatastep", "_version": "0.1.0"}}
+{
+  "asmsegmentationstep": {
+    "_category": "Segmentation",
+    "_icon": "",
+    "_name": "ASM Segmentation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/asmsegmentationstep",
+    "_version": "0.2.0"
+  },
+  "attachmentevaluationstep": {
+    "_category": "Anthropometry",
+    "_icon": "",
+    "_name": "Attachment Site Evaluation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/attachmentevaluationstep",
+    "_version": "0.2.0"
+  },
+  "autosegmentationstep": {
+    "_category": "Segmentation",
+    "_icon": "",
+    "_name": "Automatic Segmenter",
+    "_url": "https://api.github.com/repos/mapclient-plugins/autosegmentationstep",
+    "_version": "0.1.0"
+  },
+  "basicplot": {
+    "_category": "Model Viewer",
+    "_icon": "",
+    "_name": "Basic Plot",
+    "_url": "https://api.github.com/repos/mapclient-plugins/basicplot",
+    "_version": "0.2.0"
+  },
+  "chooser": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Chooser",
+    "_url": "https://api.github.com/repos/mapclient-plugins/chooser",
+    "_version": "0.2.0"
+  },
+  "dicomheaderquery": {
+    "_category": "General",
+    "_icon": "",
+    "_name": "DICOM Header Query",
+    "_url": "https://api.github.com/repos/mapclient-plugins/dicomheaderquery",
+    "_version": "0.2.0"
+  },
+  "dicomsourcestep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Dicom Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/dicomsourcestep",
+    "_version": "0.1.1"
+  },
+  "dictserializer": {
+    "_category": "Sink",
+    "_icon": "",
+    "_name": "Dict Serializer",
+    "_url": "https://api.github.com/repos/mapclient-plugins/dictserializer",
+    "_version": "0.1.0"
+  },
+  "fieldworkexportstlsurfacestep": {
+    "_category": "Output",
+    "_icon": "",
+    "_name": "Fieldwork Export STL Surface",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkexportstlsurfacestep",
+    "_version": "0.1.0"
+  },
+  "fieldworkfemurmeasurementstep": {
+    "_category": "Anthropometry",
+    "_icon": "",
+    "_name": "Fieldwork Femur Measurements",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkfemurmeasurementstep",
+    "_version": "0.2.0"
+  },
+  "fieldworkgait2392geomstep": {
+    "_category": "OpenSim",
+    "_icon": "",
+    "_name": "Fieldwork Gait2392 Geometry Customisation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkgait2392geomstep",
+    "_version": "0.2.0"
+  },
+  "fieldworkgait2392musclehmfstep": {
+    "_category": "OpenSim",
+    "_icon": "",
+    "_name": "Fieldwork Gait2392 Muscle HMF",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkgait2392musclehmfstep",
+    "_version": "0.2.0"
+  },
+  "fieldworkhostmeshfittingstep": {
+    "_category": "Fitting",
+    "_icon": "",
+    "_name": "Fieldwork Host Mesh Fitting",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkhostmeshfittingstep",
+    "_version": "1.1.0"
+  },
+  "fieldworklowerlimb2sidegenerationstep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Fieldwork Lower Limb (2 sides) Generation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworklowerlimb2sidegenerationstep",
+    "_version": "1.1.0"
+  },
+  "fieldworklowerlimbgenerationstep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Fieldwork Lower Limb Generation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworklowerlimbgenerationstep",
+    "_version": "0.2.0"
+  },
+  "fieldworkmeshfittingstep": {
+    "_category": "Fitting",
+    "_icon": "",
+    "_name": "Fieldwork Mesh Fitting",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmeshfittingstep",
+    "_version": "1.1.0"
+  },
+  "fieldworkmodeldictmakerstep": {
+    "_category": "Fieldwork",
+    "_icon": "",
+    "_name": "Fieldwork Model Dict Maker",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodeldictmakerstep",
+    "_version": "0.2.0"
+  },
+  "fieldworkmodeldictsourcestep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Fieldwork Model Dict Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodeldictsourcestep",
+    "_version": "0.1.1"
+  },
+  "fieldworkmodelevaluationstep": {
+    "_category": "Fieldwork",
+    "_icon": "",
+    "_name": "Fieldwork Model Evaluation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodelevaluationstep",
+    "_version": "1.1.0"
+  },
+  "fieldworkmodellandmarkstep": {
+    "_category": "Anthropometry",
+    "_icon": "",
+    "_name": "Fieldwork Model Landmarker",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodellandmarkstep",
+    "_version": "0.2.0"
+  },
+  "fieldworkmodelselectorstep": {
+    "_category": "Fieldwork",
+    "_icon": "",
+    "_name": "Fieldwork Model Selector",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodelselectorstep",
+    "_version": "1.1.0"
+  },
+  "fieldworkmodelserialiserstep": {
+    "_category": "Sink",
+    "_icon": "",
+    "_name": "Fieldwork Model Serialiser",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodelserialiserstep",
+    "_version": "1.1.0"
+  },
+  "fieldworkmodelsourcestep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Fieldwork Model Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodelsourcestep",
+    "_version": "1.1.0"
+  },
+  "fieldworkmodeltransformationstep": {
+    "_category": "Fieldwork",
+    "_icon": "",
+    "_name": "Fieldwork Model Transformation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodeltransformationstep",
+    "_version": "1.0.1"
+  },
+  "fieldworkmodeltriangulationstep": {
+    "_category": "Fieldwork",
+    "_icon": "",
+    "_name": "Fieldwork Model Triangulation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkmodeltriangulationstep",
+    "_version": "1.1.0"
+  },
+  "fieldworkpcmeshfittingstep": {
+    "_category": "Fitting",
+    "_icon": "",
+    "_name": "Fieldwork PC Mesh Fitting",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkpcmeshfittingstep",
+    "_version": "1.1.0"
+  },
+  "fieldworkpcregfemur2landmarksstep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Fieldwork PC-Reg Femur 2 Landmarks",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkpcregfemur2landmarksstep",
+    "_version": "0.2.0"
+  },
+  "fieldworkpcregpelvis2landmarksstep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Fieldwork PC-Reg Pelvis 2 Landmarks",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkpcregpelvis2landmarksstep",
+    "_version": "0.2.0"
+  },
+  "fieldworkpcregtibiafibula2landmarksstep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Fieldwork PC-Reg Tibia-Fibula 2 Landmarks",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fieldworkpcregtibiafibula2landmarksstep",
+    "_version": "0.2.0"
+  },
+  "fittinglogentrymakerstep": {
+    "_category": "Fitting",
+    "_icon": "",
+    "_name": "FittingLogEntryMaker",
+    "_url": "https://api.github.com/repos/mapclient-plugins/fittinglogentrymakerstep",
+    "_version": "0.2.0"
+  },
+  "gait2392somsomusclestep": {
+    "_category": "OpenSim",
+    "_icon": "",
+    "_name": "Gait2392 SOMSO Muscle",
+    "_url": "https://api.github.com/repos/mapclient-plugins/gait2392somsomusclestep",
+    "_version": "0.2.0"
+  },
+  "giaspcsourcestep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "GIAS PC Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/giaspcsourcestep",
+    "_version": "1.1.0"
+  },
+  "graphsegmentation2d": {
+    "_category": "Segmentation",
+    "_icon": "",
+    "_name": "Graph Segmentation 2D",
+    "_url": "https://api.github.com/repos/mapclient-plugins/graphsegmentation2d",
+    "_version": "0.2.0"
+  },
+  "guccionecuberesultstoplot": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Guccione Cube Results to Plot",
+    "_url": "https://api.github.com/repos/mapclient-plugins/guccionecuberesultstoplot",
+    "_version": "0.2.0"
+  },
+  "guccionecubesimulation": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Guccione Cube Simulation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/guccionecubesimulation",
+    "_version": "0.1.2"
+  },
+  "heartsurfacesegmenter": {
+    "_category": "Segmentation",
+    "_icon": "",
+    "_name": "Heart Surface Segmenter",
+    "_url": "https://api.github.com/repos/mapclient-plugins/heartsurfacesegmenter",
+    "_version": "0.1.2"
+  },
+  "heartsurfacesemiautosegmenter": {
+    "_category": "Segmentation",
+    "_icon": "",
+    "_name": "Heart Surface Semi Auto Segmenter",
+    "_url": "https://api.github.com/repos/mapclient-plugins/heartsurfacesemiautosegmenter",
+    "_version": "0.1.0"
+  },
+  "hearttransform": {
+    "_category": "Transform",
+    "_icon": "",
+    "_name": "Heart Transform",
+    "_url": "https://api.github.com/repos/mapclient-plugins/hearttransform",
+    "_version": "0.2.0"
+  },
+  "hoofmeasurement": {
+    "_category": "Morphometric",
+    "_icon": "",
+    "_name": "Hoof Measurement",
+    "_url": "https://api.github.com/repos/mapclient-plugins/hoofmeasurement",
+    "_version": "0.1.1"
+  },
+  "hoofpointanalysis": {
+    "_category": "Fitting",
+    "_icon": "",
+    "_name": "Hoof Point Analysis",
+    "_url": "https://api.github.com/repos/mapclient-plugins/hoofpointanalysis",
+    "_version": "0.2.0"
+  },
+  "landmarksjoinerstep": {
+    "_category": "Anthropometry",
+    "_icon": "",
+    "_name": "Landmarks Joiner",
+    "_url": "https://api.github.com/repos/mapclient-plugins/landmarksjoinerstep",
+    "_version": "1.1.0"
+  },
+  "loadstlstep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Load STL",
+    "_url": "https://api.github.com/repos/mapclient-plugins/loadstlstep",
+    "_version": "0.1.0"
+  },
+  "loadvrmlstep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Load VRML",
+    "_url": "https://api.github.com/repos/mapclient-plugins/loadvrmlstep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.argonsceneexporterstep": {
+    "_category": "Sink",
+    "_icon": "",
+    "_name": "Argon Scene Exporter",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.argonsceneexporterstep",
+    "_version": "0.6.3"
+  },
+  "mapclientplugins.argonviewerstep": {
+    "_category": "Model Viewer",
+    "_icon": "",
+    "_name": "Argon Viewer",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.argonviewerstep",
+    "_version": "0.4.6"
+  },
+  "mapclientplugins.autosegmentationstep": {
+    "_category": "Segmentation",
+    "_icon": "",
+    "_name": "Automatic Segmenter",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.autosegmentationstep",
+    "_version": "0.3.5"
+  },
+  "mapclientplugins.configurationcapturestep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "ConfigurationCapture",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.configurationcapturestep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.convertcoordinatefieldstep": {
+    "_category": "Conversion",
+    "_icon": "",
+    "_name": "Convert Coordinate Field",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.convertcoordinatefieldstep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.convertdatatozincstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Convert Data to Zinc",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.convertdatatozincstep",
+    "_version": "0.1.2"
+  },
+  "mapclientplugins.datadownsamplerstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Data Downsampler",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.datadownsamplerstep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.datamapstep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Data Map",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.datamapstep",
+    "_version": "0.1.1"
+  },
+  "mapclientplugins.datatrimmerstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Data Trimmer",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.datatrimmerstep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.dictdeserializerstep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "dictdeserializer",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.dictdeserializerstep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.dictserializerstep": {
+    "_category": "Sink",
+    "_icon": "",
+    "_name": "Dict Serializer",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.dictserializerstep",
+    "_version": "0.1.3"
+  },
+  "mapclientplugins.directorychooserstep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Directory Chooser",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.directorychooserstep",
+    "_version": "0.1.3"
+  },
+  "mapclientplugins.directorycopystep": {
+    "_category": "Sink",
+    "_icon": "",
+    "_name": "Directory Copy",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.directorycopystep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.electrodearraydetectorstep": {
+    "_category": "Image Processing",
+    "_icon": "",
+    "_name": "Electrode Array Detector",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.electrodearraydetectorstep",
+    "_version": "0.1.1"
+  },
+  "mapclientplugins.electrodeprojectionstep": {
+    "_category": "Fitting",
+    "_icon": "",
+    "_name": "Electrode Projection",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.electrodeprojectionstep",
+    "_version": "0.1.1"
+  },
+  "mapclientplugins.eulerintegration1step": {
+    "_category": "Integration",
+    "_icon": "",
+    "_name": "Euler Integration 1",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.eulerintegration1step",
+    "_version": "0.2.0"
+  },
+  "mapclientplugins.extoexfstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Ex to Exf",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.extoexfstep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.filechooserstep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "File Chooser",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.filechooserstep",
+    "_version": "0.1.3"
+  },
+  "mapclientplugins.filelocationsinkstep": {
+    "_category": "Sink",
+    "_icon": "",
+    "_name": "File Location Sink",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.filelocationsinkstep",
+    "_version": "0.3.1"
+  },
+  "mapclientplugins.generateflatmapsourcesstep": {
+    "_category": "Morphometric",
+    "_icon": "",
+    "_name": "Generate Flatmap Sources",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.generateflatmapsourcesstep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.generatesds": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "GenerateSDS",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.generatesds",
+    "_version": "0.2.3"
+  },
+  "mapclientplugins.hearttransformvalidationstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Heart Transform Validation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.hearttransformvalidationstep",
+    "_version": "0.1.1"
+  },
+  "mapclientplugins.imagebasedfiducialmarkers": {
+    "_category": "Image Processing",
+    "_icon": "",
+    "_name": "Image Based Fiducial Markers",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.imagebasedfiducialmarkers",
+    "_version": "0.1.1"
+  },
+  "mapclientplugins.imagecontextdatamaker": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Image Context Data Maker",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.imagecontextdatamaker",
+    "_version": "0.1.1"
+  },
+  "mapclientplugins.imagesourcestep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Image Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.imagesourcestep",
+    "_version": "0.3.1"
+  },
+  "mapclientplugins.mapclientprovenancerecordstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "MAP Client Provenance Record",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.mapclientprovenancerecordstep",
+    "_version": "0.3.1"
+  },
+  "mapclientplugins.mergezincdatastep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Merge Zinc Data",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.mergezincdatastep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.meshprojectionstep": {
+    "_category": "Model Projection",
+    "_icon": "",
+    "_name": "Mesh Projection",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.meshprojectionstep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.monodomain2d": {
+    "_category": "Fitting",
+    "_icon": "",
+    "_name": "monodomain2d",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.monodomain2d",
+    "_version": "0.1.1"
+  },
+  "mapclientplugins.muxerstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Muxer",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.muxerstep",
+    "_version": "0.1.1"
+  },
+  "mapclientplugins.organinserterstep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "organinserter",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.organinserterstep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.parametricfittingstep": {
+    "_category": "Fitting",
+    "_icon": "",
+    "_name": "Parametric Fitting",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.parametricfittingstep",
+    "_version": "0.1.1"
+  },
+  "mapclientplugins.pointcloudpartitionerstep": {
+    "_category": "Morphometric",
+    "_icon": "",
+    "_name": "Point Cloud Partitioner",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.pointcloudpartitionerstep",
+    "_version": "0.2.0"
+  },
+  "mapclientplugins.pointcloudserializerstep": {
+    "_category": "Sink",
+    "_icon": "",
+    "_name": "Point Cloud Serializer",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.pointcloudserializerstep",
+    "_version": "0.3.0"
+  },
+  "mapclientplugins.propagatezincdatastep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Propagate Zinc Data",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.propagatezincdatastep",
+    "_version": "0.2.1"
+  },
+  "mapclientplugins.recordlocationonmeshstep": {
+    "_category": "Location",
+    "_icon": "",
+    "_name": "Record Location on Mesh",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.recordlocationonmeshstep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.retrieveportaldatastep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Retrieve Portal Data",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.retrieveportaldatastep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.saveargondocumentstep": {
+    "_category": "Sink",
+    "_icon": "",
+    "_name": "Save Argon Document",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.saveargondocumentstep",
+    "_version": "0.1.1"
+  },
+  "mapclientplugins.scaffoldgroupmanagerstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Scaffold Group Manager",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.scaffoldgroupmanagerstep",
+    "_version": "0.1.0"
+  },
+  "mapclientplugins.sdsprotocolstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "SDSProtocol",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.sdsprotocolstep",
+    "_version": "0.1.2"
+  },
+  "mapclientplugins.simulationtask2step": {
+    "_category": "Integration",
+    "_icon": "",
+    "_name": "Simulation Task 2",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.simulationtask2step",
+    "_version": "0.2.0"
+  },
+  "mapclientplugins.simulationtask3step": {
+    "_category": "Integration",
+    "_icon": "",
+    "_name": "Simulation Task 3",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.simulationtask3step",
+    "_version": "0.2.0"
+  },
+  "mapclientplugins.sparccurationhelperstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Sparc Curation Helper",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.sparccurationhelperstep",
+    "_version": "0.5.2"
+  },
+  "mapclientplugins.typeconverterstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Type Converter",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.typeconverterstep",
+    "_version": "0.2.1"
+  },
+  "mapclientplugins.zincregionwebglexporterstep": {
+    "_category": "Sink",
+    "_icon": "",
+    "_name": "Zinc Region WebGl Exporter",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.zincregionwebglexporterstep",
+    "_version": "0.1.1"
+  },
+  "matplotlibstaticplotterstep": {
+    "_category": "Visualisation",
+    "_icon": "",
+    "_name": "Static Data Plotter",
+    "_url": "https://api.github.com/repos/mapclient-plugins/matplotlibstaticplotterstep",
+    "_version": "0.1.1"
+  },
+  "mayaviviewerstep": {
+    "_category": "Visualisation",
+    "_icon": "",
+    "_name": "Mayavi 3D Model Viewer",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mayaviviewerstep",
+    "_version": "0.2.0"
+  },
+  "mergepointcloudsstep": {
+    "_category": "General",
+    "_icon": "",
+    "_name": "Merge Point Clouds",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mergepointcloudsstep",
+    "_version": "0.2.0"
+  },
+  "mocapdataviewerstep": {
+    "_category": "General",
+    "_icon": "",
+    "_name": "MOCAP Data Viewer",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mocapdataviewerstep",
+    "_version": "0.1.1"
+  },
+  "modelimageviewerstep": {
+    "_category": "Model Viewer",
+    "_icon": "",
+    "_name": "Model Image Viewer",
+    "_url": "https://api.github.com/repos/mapclient-plugins/modelimageviewerstep",
+    "_version": "0.1.1"
+  },
+  "multiplefilechooser": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Multiple File Chooser",
+    "_url": "https://api.github.com/repos/mapclient-plugins/multiplefilechooser",
+    "_version": "0.2.1"
+  },
+  "opensimmodelsourcestep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "OpenSim Model Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/opensimmodelsourcestep",
+    "_version": "0.1.1"
+  },
+  "parametersetting": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Parameter Setting",
+    "_url": "https://api.github.com/repos/mapclient-plugins/parametersetting",
+    "_version": "0.2.0"
+  },
+  "pelvislandmarkshjcpredictionstep": {
+    "_category": "Anthropometry",
+    "_icon": "",
+    "_name": "Pelvis Landmark HJC Prediction",
+    "_url": "https://api.github.com/repos/mapclient-plugins/pelvislandmarkshjcpredictionstep",
+    "_version": "0.2.0"
+  },
+  "plainmodelviewer": {
+    "_category": "Zinc",
+    "_icon": "",
+    "_name": "Plain Model Viewer",
+    "_url": "https://api.github.com/repos/mapclient-plugins/plainmodelviewer",
+    "_version": "0.1.1"
+  },
+  "plotsettings": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Plot Settings",
+    "_url": "https://api.github.com/repos/mapclient-plugins/plotsettings",
+    "_version": "0.2.0"
+  },
+  "pointclouddictmakerstep": {
+    "_category": "General",
+    "_icon": "",
+    "_name": "points Cloud Dict Maker",
+    "_url": "https://api.github.com/repos/mapclient-plugins/pointclouddictmakerstep",
+    "_version": "0.1.1"
+  },
+  "pointcloudtransformationstep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Point Cloud Transformation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/pointcloudtransformationstep",
+    "_version": "0.2.0"
+  },
+  "pointsourcestep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Point Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/pointsourcestep",
+    "_version": "0.2.0"
+  },
+  "pointwiserigidregistrationstep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Point-wise Rigid Registration",
+    "_url": "https://api.github.com/repos/mapclient-plugins/pointwiserigidregistrationstep",
+    "_version": "1.1.0"
+  },
+  "polygonserialiserstep": {
+    "_category": "Sink",
+    "_icon": "",
+    "_name": "Polygon Serialiser",
+    "_url": "https://api.github.com/repos/mapclient-plugins/polygonserialiserstep",
+    "_version": "1.1.0"
+  },
+  "polygonsourcestep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Polygon Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/polygonsourcestep",
+    "_version": "1.1.0"
+  },
+  "segmentationstep": {
+    "_category": "Segmentation",
+    "_icon": "",
+    "_name": "Segmentation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/segmentationstep",
+    "_version": "0.1.0"
+  },
+  "stringsource2step": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "String Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/stringsource2step",
+    "_version": "0.2.0"
+  },
+  "textwriterstep": {
+    "_category": "General",
+    "_icon": "",
+    "_name": "TextWriter",
+    "_url": "https://api.github.com/repos/mapclient-plugins/textwriterstep",
+    "_version": "0.2.0"
+  },
+  "transformmodeltoimagespacestep": {
+    "_category": "Registration",
+    "_icon": "",
+    "_name": "Transform Model to Image Space",
+    "_url": "https://api.github.com/repos/mapclient-plugins/transformmodeltoimagespacestep",
+    "_version": "0.2.0"
+  },
+  "transformpointcloud": {
+    "_category": "Transform",
+    "_icon": "",
+    "_name": "Transform Point Cloud",
+    "_url": "https://api.github.com/repos/mapclient-plugins/transformpointcloud",
+    "_version": "0.2.0"
+  },
+  "trcframeselectorstep": {
+    "_category": "Anthropometry",
+    "_icon": "",
+    "_name": "TRC Frame Selector",
+    "_url": "https://api.github.com/repos/mapclient-plugins/trcframeselectorstep",
+    "_version": "1.0.0"
+  },
+  "trcsourcestep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "TRC Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/trcsourcestep",
+    "_version": "0.1.1"
+  },
+  "typeconverterstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "Type Converter",
+    "_url": "https://api.github.com/repos/mapclient-plugins/typeconverterstep",
+    "_version": "0.1.0"
+  },
+  "zincdatasourcestep": {
+    "_category": null,
+    "_icon": "",
+    "_name": "Zinc Data Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/zincdatasourcestep",
+    "_version": "0.2.0"
+  },
+  "zincmodelsourcestep": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Zinc Model Source",
+    "_url": "https://api.github.com/repos/mapclient-plugins/zincmodelsourcestep",
+    "_version": "0.2.0"
+  }
+}
