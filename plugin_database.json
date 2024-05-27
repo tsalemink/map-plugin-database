@@ -513,9 +513,9 @@
   "mapclientplugins.organinserterstep": {
     "_category": "Registration",
     "_icon": "",
-    "_name": "organinserter",
+    "_name": "Organ Inserter",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.organinserterstep",
-    "_version": "0.1.0"
+    "_version": "0.1.1"
   },
   "mapclientplugins.parametricfittingstep": {
     "_category": "Fitting",
@@ -557,13 +557,20 @@
     "_icon": "",
     "_name": "Retrieve Portal Data",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.retrieveportaldatastep",
-    "_version": "0.1.0"
+    "_version": "0.1.1"
   },
   "mapclientplugins.saveargondocumentstep": {
     "_category": "Sink",
     "_icon": "",
     "_name": "Save Argon Document",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.saveargondocumentstep",
+    "_version": "0.1.1"
+  },
+  "mapclientplugins.scaffoldgenerator": {
+    "_category": "General",
+    "_icon": "",
+    "_name": "Scaffold Generator",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.scaffoldgenerator",
     "_version": "0.1.1"
   },
   "mapclientplugins.scaffoldgroupmanagerstep": {
