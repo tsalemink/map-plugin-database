@@ -15,6 +15,14 @@ jobs:
     if: or ${{ github.event_name == 'workflow_dispatch' }} ${{ github.event.label.name == 'add-plugin' }}
     runs-on: ubuntu-latest
     steps:
+      - name: Check authorisation
+        uses: tspascoal/get-user-teams-membership@v2
+        id: checkUserMember
+        with:
+          username: ${{ github.actor }}
+          team: 'octocats'
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+
       - name: Checkout repo content
         uses: actions/checkout@v3
       - name: Retrieve database timestamp
