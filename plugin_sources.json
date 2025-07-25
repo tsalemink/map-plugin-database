@@ -8,6 +8,7 @@
     "ABI-Software/mapclientplugins.mbfxml2exconverterstep",
     "ABI-Software/mapclientplugins.geometryfitter",
     "ABI-Software/mapclientplugins.fieldfitterstep",
-    "ABI-Software/mapclientplugins.segmentationstitcherstep"
+    "ABI-Software/mapclientplugins.segmentationstitcherstep",
+    "ABI-Software/mapclientplugins.meshmergerstep"
   ]
 }

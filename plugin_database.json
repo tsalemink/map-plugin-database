@@ -524,6 +524,13 @@
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.mergezincdatastep",
     "_version": "0.1.0"
   },
+  "mapclientplugins.meshmergerstep": {
+    "_category": "Fitting",
+    "_icon": "",
+    "_name": "Mesh Merger",
+    "_url": "https://api.github.com/repos/ABI-Software/mapclientplugins.meshmergerstep",
+    "_version": "0.1.0"
+  },
   "mapclientplugins.meshprojectionstep": {
     "_category": "Model Projection",
     "_icon": "",
