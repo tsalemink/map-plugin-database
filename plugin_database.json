@@ -300,33 +300,40 @@
     "_url": "https://api.github.com/repos/mapclient-plugins/loadvrmlstep",
     "_version": "0.1.0"
   },
+  "mapclientplugins.applyfittedcoordinatesstep": {
+    "_category": "Fitting",
+    "_icon": "",
+    "_name": "Apply Fitted Coordinates",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.applyfittedcoordinatesstep",
+    "_version": "0.1.1"
+  },
   "mapclientplugins.argonsceneexporterstep": {
     "_category": "Sink",
     "_icon": "",
     "_name": "Argon Scene Exporter",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.argonsceneexporterstep",
-    "_version": "0.6.3"
+    "_version": "0.7.1"
   },
   "mapclientplugins.argonviewerstep": {
     "_category": "Model Viewer",
     "_icon": "",
     "_name": "Argon Viewer",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.argonviewerstep",
-    "_version": "0.4.6"
+    "_version": "0.4.8"
   },
   "mapclientplugins.autosegmentationstep": {
     "_category": "Segmentation",
     "_icon": "",
     "_name": "Automatic Segmenter",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.autosegmentationstep",
-    "_version": "0.3.5"
+    "_version": "0.4.1"
   },
   "mapclientplugins.configurationcapturestep": {
     "_category": "Utility",
     "_icon": "",
     "_name": "ConfigurationCapture",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.configurationcapturestep",
-    "_version": "0.1.0"
+    "_version": "0.1.2"
   },
   "mapclientplugins.convertcoordinatefieldstep": {
     "_category": "Conversion",
@@ -340,7 +347,7 @@
     "_icon": "",
     "_name": "Convert Data to Zinc",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.convertdatatozincstep",
-    "_version": "0.1.2"
+    "_version": "0.2.2"
   },
   "mapclientplugins.datadownsamplerstep": {
     "_category": "Utility",
@@ -382,7 +389,7 @@
     "_icon": "",
     "_name": "Directory Chooser",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.directorychooserstep",
-    "_version": "0.1.3"
+    "_version": "0.2.1"
   },
   "mapclientplugins.directorycopystep": {
     "_category": "Sink",
@@ -424,7 +431,7 @@
     "_icon": "",
     "_name": "File Chooser",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.filechooserstep",
-    "_version": "0.1.3"
+    "_version": "0.2.0"
   },
   "mapclientplugins.filelocationsinkstep": {
     "_category": "Sink",
@@ -438,14 +445,14 @@
     "_icon": "",
     "_name": "Generate Flatmap Sources",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.generateflatmapsourcesstep",
-    "_version": "0.1.0"
+    "_version": "0.1.1"
   },
   "mapclientplugins.generatesds": {
     "_category": "Source",
     "_icon": "",
     "_name": "GenerateSDS",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.generatesds",
-    "_version": "0.2.3"
+    "_version": "0.3.1"
   },
   "mapclientplugins.hearttransformvalidationstep": {
     "_category": "Utility",
@@ -473,14 +480,14 @@
     "_icon": "",
     "_name": "Image Source",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.imagesourcestep",
-    "_version": "0.3.1"
+    "_version": "0.3.2"
   },
   "mapclientplugins.mapclientprovenancerecordstep": {
     "_category": "Utility",
     "_icon": "",
     "_name": "MAP Client Provenance Record",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.mapclientprovenancerecordstep",
-    "_version": "0.3.1"
+    "_version": "0.3.2"
   },
   "mapclientplugins.mergezincdatastep": {
     "_category": "Registration",
@@ -496,6 +503,13 @@
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.meshprojectionstep",
     "_version": "0.1.0"
   },
+  "mapclientplugins.meshrotationstep": {
+    "_category": "Fitting",
+    "_icon": "",
+    "_name": "Mesh Rotation",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.meshrotationstep",
+    "_version": "0.1.0"
+  },
   "mapclientplugins.monodomain2d": {
     "_category": "Fitting",
     "_icon": "",
@@ -508,7 +522,7 @@
     "_icon": "",
     "_name": "Muxer",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.muxerstep",
-    "_version": "0.1.1"
+    "_version": "0.2.2"
   },
   "mapclientplugins.organinserterstep": {
     "_category": "Registration",
@@ -529,7 +543,7 @@
     "_icon": "",
     "_name": "Point Cloud Partitioner",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.pointcloudpartitionerstep",
-    "_version": "0.2.0"
+    "_version": "0.4.2"
   },
   "mapclientplugins.pointcloudserializerstep": {
     "_category": "Sink",
@@ -557,7 +571,7 @@
     "_icon": "",
     "_name": "Retrieve Portal Data",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.retrieveportaldatastep",
-    "_version": "0.1.1"
+    "_version": "0.1.3"
   },
   "mapclientplugins.saveargondocumentstep": {
     "_category": "Sink",
@@ -565,6 +579,13 @@
     "_name": "Save Argon Document",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.saveargondocumentstep",
     "_version": "0.1.1"
+  },
+  "mapclientplugins.scaffoldcreator": {
+    "_category": "Source",
+    "_icon": "",
+    "_name": "Scaffold Creator",
+    "_url": "https://api.github.com/repos/ABI-Software/mapclientplugins.scaffoldcreator",
+    "_version": "0.10.0"
   },
   "mapclientplugins.scaffoldgenerator": {
     "_category": "General",
@@ -606,14 +627,21 @@
     "_icon": "",
     "_name": "Sparc Curation Helper",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.sparccurationhelperstep",
-    "_version": "0.5.2"
+    "_version": "0.5.4"
   },
   "mapclientplugins.typeconverterstep": {
     "_category": "Utility",
     "_icon": "",
     "_name": "Type Converter",
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.typeconverterstep",
-    "_version": "0.2.1"
+    "_version": "0.2.4"
+  },
+  "mapclientplugins.userscriptstep": {
+    "_category": "General",
+    "_icon": "",
+    "_name": "User Script",
+    "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.userscriptstep",
+    "_version": "0.1.0"
   },
   "mapclientplugins.zincregionwebglexporterstep": {
     "_category": "Sink",
@@ -746,7 +774,7 @@
     "_icon": "",
     "_name": "Segmentation",
     "_url": "https://api.github.com/repos/mapclient-plugins/segmentationstep",
-    "_version": "0.1.0"
+    "_version": "0.1.2"
   },
   "stringsource2step": {
     "_category": "Source",

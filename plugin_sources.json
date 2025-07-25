@@ -2,5 +2,7 @@
   "plugin_organizations": [
     "mapclient-plugins"
   ],
-  "plugin_repositories": []
+  "plugin_repositories": [
+    "ABI-Software/mapclientplugins.scaffoldcreator"
+  ]
 }
