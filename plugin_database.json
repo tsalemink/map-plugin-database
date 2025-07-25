@@ -496,6 +496,13 @@
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.mapclientprovenancerecordstep",
     "_version": "0.3.2"
   },
+  "mapclientplugins.mbfxml2exconverterstep": {
+    "_category": "Utility",
+    "_icon": "",
+    "_name": "MBFXML2ExConverter",
+    "_url": "https://api.github.com/repos/ABI-Software/mapclientplugins.mbfxml2exconverterstep",
+    "_version": "0.3.0"
+  },
   "mapclientplugins.mergezincdatastep": {
     "_category": "Registration",
     "_icon": "",
