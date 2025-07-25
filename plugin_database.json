@@ -636,6 +636,13 @@
     "_url": "https://api.github.com/repos/mapclient-plugins/mapclientplugins.sdsprotocolstep",
     "_version": "0.1.2"
   },
+  "mapclientplugins.segmentationstitcherstep": {
+    "_category": "Segmentation",
+    "_icon": "",
+    "_name": "Segmentation Stitcher",
+    "_url": "https://api.github.com/repos/ABI-Software/mapclientplugins.segmentationstitcherstep",
+    "_version": "0.1.1"
+  },
   "mapclientplugins.simulationtask2step": {
     "_category": "Integration",
     "_icon": "",
