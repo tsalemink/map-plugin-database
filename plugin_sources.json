@@ -3,6 +3,7 @@
     "mapclient-plugins"
   ],
   "plugin_repositories": [
-    "ABI-Software/mapclientplugins.scaffoldcreator"
+    "ABI-Software/mapclientplugins.scaffoldcreator",
+    "ABI-Software/mapclientplugins.dataembedderstep"
   ]
 }
