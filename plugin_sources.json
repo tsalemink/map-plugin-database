@@ -5,6 +5,7 @@
   "plugin_repositories": [
     "ABI-Software/mapclientplugins.scaffoldcreator",
     "ABI-Software/mapclientplugins.dataembedderstep",
-    "ABI-Software/mapclientplugins.mbfxml2exconverterstep"
+    "ABI-Software/mapclientplugins.mbfxml2exconverterstep",
+    "ABI-Software/mapclientplugins.geometryfitter"
   ]
 }
