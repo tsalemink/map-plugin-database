@@ -38,9 +38,9 @@ jobs:
 
   update-database:
     # If the workflow was triggered by closing an issue, only run if the issue contains the 'add-plugin' label.
-#    if: |
-#      needs.check-permission.outputs.authorised == 'true' &&
-#      (github.event_name == 'workflow_dispatch' || github.event.label.name == 'add-plugin')
+    #if: |
+    #  needs.check-permission.outputs.authorised == 'true' &&
+    #  (github.event_name == 'workflow_dispatch' || github.event.label.name == 'add-plugin')
     runs-on: ubuntu-latest
     steps:
       - name: Debug condition parts
@@ -48,7 +48,7 @@ jobs:
           echo "Authorised: ${{ needs.check-permission.outputs.authorised }}"
           echo "Event name: ${{ github.event_name }}"
           echo "Label name: ${{ github.event.label.name || 'undefined' }}"
-        
+
       - name: Checkout repo content
         uses: actions/checkout@v4
       - name: Retrieve database timestamp
