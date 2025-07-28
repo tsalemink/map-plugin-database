@@ -10,9 +10,31 @@ on:
   push:
 
 jobs:
+  check-permission:
+    runs-on: ubuntu-latest
+    outputs:
+      authorised: ${{ steps.check-permission.outputs.authorised }}
+    steps:
+      - name: Determine if user has permission to update the database
+        id: check-permission
+        run: |
+          USER=${{ github.event.sender.login }}
+          REPO=${{ github.repository }}
+          RESPONSE=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/$REPO/collaborators/$USER/permission")
+          PERMISSION=$(echo "$RESPONSE" | sed -n 's/.*"permission": "\(.*\)".*/\1/p')
+          if [ "$PERMISSION" = "admin" ] || [ "$PERMISSION" = "maintain" ] || [ "$PERMISSION" = "write" ]; then
+            AUTHORISED="true"
+          else
+            AUTHORISED="false"
+          fi
+          echo "authorised=$AUTHORISED" >> $GITHUB_OUTPUT
+
   update-database:
     # If the workflow was triggered by closing an issue, only run if the issue contains the 'add-plugin' label.
-    if: ${{ github.event_name == 'workflow_dispatch' }} or ${{ github.event.label.name == 'add-plugin' }}
+    if: |
+      needs.check-permission.outputs.authorised == 'true' &&
+      (github.event_name == 'workflow_dispatch' || github.event.label.name == 'add-plugin')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo content
@@ -23,7 +45,7 @@ jobs:
       - name: Retrieve URL submission
         id: url
         run: |
-          if ${{ github.event_name == 'issues' }}; then
+          if [ "${{ github.event_name }}" == "issues" ]; then
             echo "url=${{ github.event.issue.body }}" >> $GITHUB_OUTPUT
           else
             echo "url=''" >> $GITHUB_OUTPUT
@@ -47,7 +69,7 @@ jobs:
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "Update database." --allow-empty)
       - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
