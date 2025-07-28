@@ -22,17 +22,18 @@ jobs:
           REPO=${{ github.repository }}
           RESPONSE=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             "https://api.github.com/repos/$REPO/collaborators/$USER/permission")
-          PERMISSION=$(echo "$RESPONSE" | sed -n 's/.*"permission": "\(.*\)".*/\1/p')
-          
-          # TODO: Debug.
-          echo "DEBUG: Repository -> $REPO"
-          echo "DEBUG: Permission -> $PERMISSION"
-          
+          PERMISSION=$(echo "$RESPONSE" | sed -n 's/.*"permission": "\(.*\)".*/\1/p')          
           if [ "$PERMISSION" = "admin" ] || [ "$PERMISSION" = "maintain" ] || [ "$PERMISSION" = "write" ]; then
             AUTHORISED="true"
           else
             AUTHORISED="false"
           fi
+          
+          # TODO: Debug.
+          echo "DEBUG: Repository -> $REPO"
+          echo "DEBUG: Permission -> $PERMISSION"
+          echo "DEBUG: Authorisation -> AUTHORISED"
+          
           echo "authorised=$AUTHORISED" >> $GITHUB_OUTPUT
 
   update-database:
