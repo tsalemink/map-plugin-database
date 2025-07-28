@@ -37,6 +37,7 @@ jobs:
           echo "authorised=$AUTHORISED" >> $GITHUB_OUTPUT
 
   update-database:
+    needs: check-permission
     # If the workflow was triggered by closing an issue, only run if the issue contains the 'add-plugin' label.
     #if: |
     #  needs.check-permission.outputs.authorised == 'true' &&
