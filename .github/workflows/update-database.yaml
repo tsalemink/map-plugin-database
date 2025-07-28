@@ -32,7 +32,7 @@ jobs:
           # TODO: Debug.
           echo "DEBUG: Repository -> $REPO"
           echo "DEBUG: Permission -> $PERMISSION"
-          echo "DEBUG: Authorisation -> AUTHORISED"
+          echo "DEBUG: Authorisation -> $AUTHORISED"
           
           echo "authorised=$AUTHORISED" >> $GITHUB_OUTPUT
 
