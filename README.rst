@@ -17,3 +17,5 @@ MAP-Client users are able to submit their own MAP plugins to the MAP Plugin Data
 to submit an issue in the `MAP Plugin Database`_ GitHub repository. The issue should be tagged with the *add-plugin* label. The body of the
 issue submission should contain only the GitHub repository path of the plugin to be added; this path should be in the format:
 *{organization}/{repository}*, for example: *mapclient-plugins/pointsourcestep*.
+
+Editing database entries and triggering the automated processes to update this database are restricted to repository maintainers.
